@@ -1,0 +1,211 @@
+/*
+Theme Name: St Augustines Theme
+Theme URI: https://staugustinespreschool.co.uk/wp
+Description: A WP theme for a school website
+Version: 1.0
+Author: Mark Williams
+Author URI: https://github.com/markDeveloping
+*/
+
+/*colour scheme:
+Green: #12B3AE
+White: #F7F6F7
+Orange: #FF6454
+Grey: #676567
+light-grey: #D9E4E9
+*/
+
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+}
+
+/*Wraps horible long email address on the home page*/
+a {
+	word-wrap: break-word;
+}
+
+.logo {
+	position: absolute;
+	top:16px;
+	width: 128px;
+}
+
+.watermark {
+	background-image: url('assets/images/watermark.png');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 430px 330px;
+}
+
+/*padding for gallery images*/
+.padding {
+	padding: 0;
+}
+
+@media screen and (min-width: 769px) {
+	.logo {
+		width: 180px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.watermark {
+		background-position: 250px 330px;
+	}
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.dropdown-menu li{
+	background-color: white;
+}
+
+.banner-img {
+	background-image: url('assets/images/banner.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.banner-learning {
+  background-color: rgb(204,119,175);
+  color: white;
+  padding-bottom: 10px;
+}
+
+.banner-cookies {
+  background-color: rgb(137,198,179);
+  color: white;
+  padding-bottom: 10px;
+}
+
+.banner-gallery {
+	background-color: rgb(177,205,72);
+	color: white;
+	padding-bottom: 10px;
+}
+
+.banner-newParents {
+	background-color: rgb(79,120,133);
+	color: white;
+	padding-bottom: 10px;
+}
+
+.banner-policies {
+	background-color: rgb(217,157,101);
+	color: white;
+	padding-bottom: 10px;
+}
+
+.banner-facilities {
+	background-color: rgb(40, 53, 131);
+	color: white;
+	padding-bottom: 10px;
+}
+
+
+.btn-info {
+	color: #F7F6F7;
+	background-color: #12B3AE;
+	border-color: #F7F6F7;
+}
+
+.lead {
+	font-size: 19px;
+}
+
+.btn-info:hover {
+	background-color:#13C0BA;
+	border-color: #F7F6F7;
+}
+
+.fabricDark {
+	background-image: url('assets/images/tweed.png');
+}
+
+.fabricText {
+	color: #ffffff;
+}
+
+.navbar-default {
+	background-color: #12B3AE;
+	border-color: #F7F6F7;
+	color: #F7F6F7;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #F7F6F7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #F7F6F7;
+}
+
+a {
+	color:#FF6454;
+}
+
+a:hover {
+	color:#FF6454;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #000000;
+	background-color: #F7F6F7;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.cookieTable {
+	width: 100%;
+}
+
+.cookieTable tr {
+	border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-img {
+    	background-image: url('assets/images/banner-mobile.png');
+    	background-size: 170%;
+    }
+    .watermark{
+    	background-size: 200px;
+    }
+    .logo {
+		left: 0px;
+		top: 27px;
+		width: 100px;
+	}
+}
+
+
+/* list of posts css */
+.post {
+border-bottom: solid 1px #ccc;
+float: left;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.post--heading {
+margin-bottom: 0;
+}
+
+.post--author {
+color: #676567;
+}
+
+.post--excerpt {
+display: inline;
+float: left;
+}
+
+.post--link {
+	float: right;
+	display: inline;
+	font-size: 24px;
+}
